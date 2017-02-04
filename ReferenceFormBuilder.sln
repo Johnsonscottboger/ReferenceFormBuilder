@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6314FF3A-36A3-4E97-AFC2-DFE99D8F5E15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7EF1D164-C9C6-4B0A-B473-2E78B102AE84}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ReferenceFormBuilder", "src\ReferenceFormBuilder\ReferenceFormBuilder.xproj", "{ACF91057-F505-4572-9AF8-EF4EA54294D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACF91057-F505-4572-9AF8-EF4EA54294D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF91057-F505-4572-9AF8-EF4EA54294D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF91057-F505-4572-9AF8-EF4EA54294D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF91057-F505-4572-9AF8-EF4EA54294D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACF91057-F505-4572-9AF8-EF4EA54294D5} = {6314FF3A-36A3-4E97-AFC2-DFE99D8F5E15}
+	EndGlobalSection
+EndGlobal
